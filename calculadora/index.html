@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta http-equiv="content-security-policy" content="default-src 'self'; script-src 'self'; style-src 'self';">
+</head>
+<body>
+   <table border="0" cellpadding="0" cellspacing="0" class="Calculadora">
+    <tr>
+        <div class="macos-top-bar">
+            <div class="macos-button close-button"></div>
+            <div class="macos-button minimize-button"></div>
+            <div class="macos-button fullscreen-button"></div>
+        </div>
+        <td colspan="4" class="Calculadora-display" id="display"></td>
+    </tr>
+    <tr>
+        <td class="calc-button" id="borrar">C</td>
+        <td class="calc-button" id="suma-resta">±</td>
+        <td class="calc-button" id="porcentaje">%</td>
+        <td class="calc-button" id="division">&divide;</td>
+    </tr>
+    <tr>
+        <td class="calc-button" id="7">7</td>
+        <td class="calc-button" id="8">8</td>
+        <td class="calc-button" id="9">9</td>
+        <td class="calc-button" id="multiplicacion">&times;</td>
+    </tr>
+    <tr>
+        <td class="calc-button" id="4">4</td>
+        <td class="calc-button" id="5">5</td>
+        <td class="calc-button" id="6">6</td>
+        <td class="calc-button" id="resta">&minus;</td>
+    </tr>
+    <tr>
+        <td class="calc-button" id="1">1</td>
+        <td class="calc-button" id="2">2</td>
+        <td class="calc-button" id="3">3</td>
+        <td class="calc-button" id="suma">+</td>
+    </tr>   
+    <tr>
+        <td class="calc-button" id="0" colspan="2">0</td>
+        <td class="calc-button" id="punto">.</td>
+        <td class="calc-button" id="igual">=</td>
+   </table> 
+    <script src="calculadora.js"></script>
+</body>
+</html>
